@@ -12,7 +12,7 @@ Zen of Python
 11.
 12.
 13.
-14.
+14.Although that way may not be obvious at first unless you're Dutch.
 15.
 16.
 17.
