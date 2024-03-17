@@ -8,6 +8,7 @@ Zen of Python
 6.
 7.
 8.
+9.Although practicality beats purity.
 10.
 11.
 12.
