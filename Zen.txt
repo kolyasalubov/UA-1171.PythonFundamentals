@@ -21,7 +21,7 @@ Zen of Python
 19.Namespaces are one honking great idea -- let's do more of those!
 20.
 21.
-22.
+22.Simple is better than complex.
 23.
 24.Flat is better than nested.
 25.
