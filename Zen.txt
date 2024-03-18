@@ -1,6 +1,6 @@
 Zen of Python
 
-1.
+1.Beautiful is better than ugly.
 2.
 3.
 4.
