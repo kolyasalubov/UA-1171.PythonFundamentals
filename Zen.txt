@@ -29,3 +29,4 @@ Zen of Python
 27.Special cases aren't special enough to break the rules.
 47. The End!!!
 35.Although never is often better than *right* now.
+30.Unless explicitly silenced.
