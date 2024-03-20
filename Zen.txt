@@ -2,7 +2,7 @@ Zen of Python
 
 1.Beautiful is better than ugly.
 2.
-3.
+3.Simple is better than complex.
 4.Complex is better than complicated.
 5.
 6.Sparse is better than dense.
