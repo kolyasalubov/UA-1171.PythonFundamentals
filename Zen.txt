@@ -30,3 +30,4 @@ Zen of Python
 47. The End!!!
 35.Although never is often better than *right* now.
 32.There should be one-- and preferably only one --obvious way to do it.
+26. Readability counts.
