@@ -48,4 +48,4 @@ Zen of Python
 43.
 44.
 45.
-46.Special cases aren't special enough to break the rules.
+46. Special cases aren't special enough to break the rules.
