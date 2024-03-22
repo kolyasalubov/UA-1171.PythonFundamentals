@@ -27,11 +27,11 @@ Zen of Python
 25.Sparse is better than dense.
 26.
 27.Special cases aren't special enough to break the rules.
-45.Special cases aren't special enough to break the rules.
 47. The End!!!
 35.Although never is often better than *right* now.
 32.There should be one-- and preferably only one --obvious way to do it.
 26. Readability counts.
 33.Although that way may not be obvious at first unless you're Dutch.
 30.Unless explicitly silenced.
+45.Special cases aren't special enough to break the rules.
 46. Special cases aren't special enough to break the rules.
