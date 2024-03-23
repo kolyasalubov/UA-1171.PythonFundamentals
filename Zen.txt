@@ -12,7 +12,7 @@ Zen of Python
 10.
 11.Unless explicitly silenced.
 12.
-13.
+13.There should be one-- and preferably only one --obvious way to do it.
 14.Although that way may not be obvious at first unless you're Dutch.
 15.
 16.
