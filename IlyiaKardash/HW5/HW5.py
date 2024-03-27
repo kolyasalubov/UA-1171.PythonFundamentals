@@ -34,14 +34,14 @@
 """5.3"""
 
 
-# user_input = int(input("Enter your number: "))
+user_input = int(input("Enter your number: "))
 
-# a1 = 1
+a1 = 1
 
-# while user_input > 0:
-#     for item in range(a1, user_input+1):
-#         a1 = a1 * item
-#     print(a1)
-#     break
-# else:
-#     print("Invalid number")
+while user_input > 0:
+    for item in range(a1, user_input+1):
+        a1 *= item
+    print(a1)
+    break
+else:
+    print("Invalid number")
