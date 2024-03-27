@@ -12,4 +12,4 @@ else:
 
     sorted_number = sorted(number)
     sorted_number_str = ''.join(sorted_number)
-    print("Цифри чотирицифрового числа в порядку зростання: ", sorted_number_str)
+    print("Digits of the number in ascending order: ", sorted_number_str)
