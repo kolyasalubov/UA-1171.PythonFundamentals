@@ -38,3 +38,4 @@ Zen of Python
 46. Special cases aren't special enough to break the rules.
 44. Readability counts.
 36. If the implementation is hard to explain, it's a bad idea.
+43. Sparse is better than dense.
