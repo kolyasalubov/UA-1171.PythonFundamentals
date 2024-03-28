@@ -10,7 +10,7 @@ print(result_ls)
 
 
 
-Task 2
+# Task 2
 n = int(input("n: "))
 fib = [0, 1]
 
