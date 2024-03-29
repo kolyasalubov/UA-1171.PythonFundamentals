@@ -36,12 +36,12 @@
 
 user_input = int(input("Enter your number: "))
 
-a1 = 1
-
-while user_input > 0:
+if user_input in range(2):
+    print("Factorial for 0 or 1 is 1")
+elif user_input < 0:
+    print("Invalid number")
+else:
+    a1 = 1
     for item in range(a1, user_input+1):
         a1 *= item
-    print(a1)
-    break
-else:
-    print("Invalid number")
+    print(f'Factorial for {user_input} is {a1}')
