@@ -29,9 +29,10 @@ print("'better' -",zen_of_Python.count('better'))
 print("'never'  -",zen_of_Python.count('never'))
 print("'is'     -",(zen_of_Python.count('is')))
 
-# print(zen_of_Python .upper())
+print(zen_of_Python .upper())
 
-# print(zen_of_Python .replace('i','&'))
+print(zen_of_Python .replace('i','&'))
+
 
 # Task 2 
 # A four-digit natural number is specified:
@@ -39,22 +40,18 @@ print("'is'     -",(zen_of_Python.count('is')))
 # - write the number in reverse order
 # - in ascending order, you need to sort the numbers included in the given number
 
+val_b = "5674"
+product = int(val_b[0])*int(val_b[1])*int(val_b[2]) * int(val_b[3])
+print(product)
 
-digit_natural_number = 5674
-# print(type(digit_natural_number))
-digit_str = str(digit_natural_number)
-print(digit_str[::-1])  # it is ok
-# digit_list = list(digit_str)
-# print(digit_list) 
-# b = count. digit_str
-# print(product)
+print(val_b[::-1])  # it is ok
 
-# print(digit_str [::-1])
 
 # Task 3
 # Interchange the values of two variables without using the third variable.
-# value_1 = 57
-# value_2 = 43
-# print(value_1, value_2)
-# value_1,value_2 = value_2,value_1
-# print(value_1, value_2)
+
+value_1 = 57
+value_2 = 43
+print(value_1, value_2)
+value_1,value_2 = value_2,value_1
+print(value_1, value_2)
