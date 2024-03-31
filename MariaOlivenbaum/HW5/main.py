@@ -36,7 +36,7 @@ else:
 
 # ==============================
 
-print("\n***THE THIRD TASK*** ")
+print("\n***THE THIRD TASK***")
 
 number_for_factorial = int(input("Enter the number for which you want to calculate the factorial: "))
 factorial_result = 1
