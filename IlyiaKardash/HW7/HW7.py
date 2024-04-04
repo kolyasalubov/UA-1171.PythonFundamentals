@@ -21,44 +21,44 @@
 """7.2"""
 
 
-# def areaRectangle(width, height):
-#     area = int(width) * int(height)
-#     return area
+def areaRectangle(width, height):
+    area = int(width) * int(height)
+    return area
 
 
-# def areaTriangle(base, height):
-#     area = 1/2 * base * height
-#     return area
+def areaTriangle(base, height):
+    area = 1/2 * base * height
+    return area
 
 
-# def areaCircle(radius):
-#     PI = 3.14
-#     area = PI * radius ** 2
-#     return area
+def areaCircle(radius):
+    PI = 3.14
+    area = PI * radius ** 2
+    return area
 
 
-# print("Calculate the area of following shapes: \n"
-#       "1. Rectangle \n"
-#       "2. Triangle \n"
-#       "3. Circle \n")
+print("Calculate the area of following shapes: \n"
+      "1. Rectangle \n"
+      "2. Triangle \n"
+      "3. Circle \n")
 
-# user_choice = input("Select the function: ")
+user_choice = input("Select the function: ")
 
-# if user_choice == "1":
-#     width = int(input("Enter width: "))
-#     height = int(input("Enter height: "))
-#     print(int(areaRectangle(width, height)))
+if user_choice == "1":
+    width = int(input("Enter width: "))
+    height = int(input("Enter height: "))
+    print(f'Area of a rectangle is {int(areaRectangle(width, height))}')
 
-# elif user_choice == "2":
-#     base = int(input("Enter base: "))
-#     height = int(input("Enter height: "))
-#     print(int(areaTriangle(base, height)))
+elif user_choice == "2":
+    base = int(input("Enter base: "))
+    height = int(input("Enter height: "))
+    print(f'Area of a triangle is {int(areaTriangle(base, height))}')
 
-# elif user_choice == "3":
-#     radius = int(input("Enter radius: "))
-#     print(int(areaCircle(radius)))
-# else:
-#     print("Invalid number")
+elif user_choice == "3":
+    radius = int(input("Enter radius: "))
+    print(f'Area of a circle is {int(areaCircle(radius))}')
+else:
+    print("Invalid number")
 
 
 """7.3"""
