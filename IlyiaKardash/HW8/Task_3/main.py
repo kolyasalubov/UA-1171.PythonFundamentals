@@ -12,7 +12,7 @@ while True:
     if user_input == "Exit":
         print("Bye!")
         break
-    if user_input == "1":
+    elif user_input == "1":
         width = int(input("Enter width: "))
         height = int(input("Enter height: "))
         area = area.areaRectangle(width, height)
