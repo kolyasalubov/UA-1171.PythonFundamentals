@@ -1,25 +1,25 @@
 
-# #Rectangle area calculate
-# def rectangleAreaCalculate(length, width):
-#     return length * width
+#Rectangle area calculate
+def rectangleAreaCalculate(length, width):
+    return length * width
 
-# length = float(input("Whrite length of rectangle: "))
-# width = float(input("Whrite width of rectangle: "))
+length = float(input("Whrite length of rectangle: "))
+width = float(input("Whrite width of rectangle: "))
 
-# area = rectangleAreaCalculate(length, width)
-# print("Rectangle Area: ", area)
+area = rectangleAreaCalculate(length, width)
+print("Rectangle Area: ", area)
 
 
 
-# #Triangle area calculate
-# def triangleAreaCalculate(base, heigth):
-#     return 0.5 * base * heigth
+#Triangle area calculate
+def triangleAreaCalculate(base, heigth):
+    return 0.5 * base * heigth
 
-# base = float(input("Whrite base of triangle: "))
-# heigth = float(input("Whrite heigth of triangle: "))
+base = float(input("Whrite base of triangle: "))
+heigth = float(input("Whrite heigth of triangle: "))
 
-# area = triangleAreaCalculate(base, heigth)
-# print("Triangle Area: ", area)
+area = triangleAreaCalculate(base, heigth)
+print("Triangle Area: ", area)
 
 #Circle area calculate
 
