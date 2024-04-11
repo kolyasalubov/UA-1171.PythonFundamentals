@@ -6,7 +6,7 @@ Zen of Python
 4.Complex is better than complicated.
 5.
 6.Sparse is better than dense.
-7.
+7.Readability counts.
 8.Special cases aren't special enough to break the rules.
 9.Although practicality beats purity.
 10.
@@ -38,3 +38,5 @@ Zen of Python
 46. Special cases aren't special enough to break the rules.
 44. Readability counts.
 36. If the implementation is hard to explain, it's a bad idea.
+43. Sparse is better than dense.
+28. Хотя практичность важнее чистоты.
