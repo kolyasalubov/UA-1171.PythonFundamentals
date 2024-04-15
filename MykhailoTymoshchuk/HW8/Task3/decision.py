@@ -1,5 +1,7 @@
 from math import*
 
+""" Creating a module with math decion to calculate area of rectanlge,tringle,cirlce"""
+
 def rectangleArea(length,width):
     return length * width
 
