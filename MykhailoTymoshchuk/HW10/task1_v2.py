@@ -63,10 +63,3 @@ def main():
 if __name__ == '__main__':
     main()
                 
-                
-                
-        # height = float(input("Write height: "))
-# width = float(input("Write weight: "))
-# area_result = Rectangle(height,width)
-# print ("Rectangle area: ", area_result.area())
-    
