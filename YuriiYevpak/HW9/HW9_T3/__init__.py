@@ -1,0 +1,2 @@
+from pyowm import *
+
