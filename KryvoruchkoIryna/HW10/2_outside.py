@@ -96,7 +96,6 @@ class Sphere:
         density = self.mass / self.get_volume()
         return round(density, 5)
 
-# Пример использования
 ball = Sphere(2, 50)
 print(ball.get_radius())
 print(ball.get_mass())
@@ -106,3 +105,28 @@ print(ball.get_density())
 
 # # # 6
 
+import re
+
+class ReNameAbleClass:
+    def __init__(self):
+        pass
+
+    @classmethod
+    def change_class_name(cls, new_name):
+        if not new_name[0].isupper() or not re.match("^[A-Za-z0-9]*$", new_name):
+            raise ValueError("Invalid class name. Must start with uppercase letter and contain only alphanumeric characters.")
+        cls.__name__ = new_name
+
+    def __str__(self):
+        return f"Class name is: {self.__class__.__name__}"
+
+obj = ReNameAbleClass()
+print(obj)
+
+ReNameAbleClass.change_class_name("NewName")
+print(obj)
+
+try:
+    ReNameAbleClass.change_class_name("newName")
+except ValueError as e:
+    print(e)
