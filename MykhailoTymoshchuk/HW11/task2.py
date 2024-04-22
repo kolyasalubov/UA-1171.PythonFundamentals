@@ -10,12 +10,12 @@ def weekdays():
             raise TypeError("Only integers and numbers are allowed")
         input_user = int(input_user)
         
+        # Тут в мене виник завтик не хоче коректно працювти виняток - якщо введеного ключа взагалі немає
         
         # # if input_user not in weekdays():
         # #     raise KeyError("Key doesn't exist")
         # else:
         #     return week_days.get(input_user)
-        
         
         if input_user > 7 or input_user < 1:
             raise ValueError ("Invalid number, must be between 1 and 7")
