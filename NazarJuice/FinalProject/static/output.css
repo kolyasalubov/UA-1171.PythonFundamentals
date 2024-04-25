@@ -1,0 +1,42 @@
+.input {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid rgba(11, 210, 236, 0.692);
+  border-radius: 5pc;
+  width: 30%;
+  box-sizing: border-box;
+}
+.button_login{
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid rgba(11, 210, 236, 0.692);
+  background-color: rgba(0, 215, 243, 0.623);
+  border-radius: 5pc;
+  width: 30%;
+  color: rgb(37, 0, 139);
+  box-sizing: border-box;
+}
+.button_login:hover{
+  background-color: rgba(18, 140, 156, 0.692);
+}
+.container_login{
+  border-radius: 50px;
+  background-color: rgba(27, 156, 179, 0.592);
+  width: 30%;
+  height: 50%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+.text_login{
+  font-size: 28px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: rgb(37, 0, 139);
+}
+.text_account{
+  font-size: 18px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
