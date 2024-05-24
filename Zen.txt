@@ -42,5 +42,6 @@ Zen of Python
 43. Sparse is better than dense.
 28. Хотя практичность важнее чистоты.
 34. Errors should never pass silently
+29.Errors should never pass silently.
 
 
